@@ -1,0 +1,12 @@
+l=[]
+nt=int(input('Enter no. of terms:'))
+for i in range(nt+1):
+    n=int(input("Enter term: "))
+    l+=[n]
+print('Inputted list:',l)
+
+newlist=[]
+for i in l:
+    if i>0:
+        newlist+=[i]
+print("list of all positive numbers is",newlist)
