@@ -1,0 +1,8 @@
+nterms= int(input("Enter no. of terms: "))
+n1, n2= 0, 1
+for i in range(nterms+1):
+    print(n1)
+    n= n1+n2
+    n1=n2
+    n2=n
+    
